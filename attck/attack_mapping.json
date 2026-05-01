@@ -1,0 +1,42 @@
+{
+  "defense_evasion": {
+    "tactic_id": "TA0005",
+    "tactic_name": "Defense Evasion",
+    "description": "Adversary tries to avoid being detected",
+    "common_techniques": {
+      "T1055": "Process Injection",
+      "T1027": "Obfuscated Files or Information",
+      "T1070": "Indicator Removal on Host",
+      "T1112": "Modify Registry",
+      "T1218": "Signed Binary Proxy Execution",
+      "T1562": "Impair Defenses"
+    }
+  },
+  "lateral_movement": {
+    "tactic_id": "TA0008",
+    "tactic_name": "Lateral Movement",
+    "description": "Adversary tries to move through your environment",
+    "common_techniques": {
+      "T1021": "Remote Services",
+      "T1021.001": "Remote Desktop Protocol",
+      "T1021.002": "SMB/Windows Admin Shares",
+      "T1021.006": "Windows Remote Management (WinRM)",
+      "T1570": "Lateral Tool Transfer",
+      "T1550": "Use Alternate Authentication Material"
+    }
+  },
+  "persistence": {
+    "tactic_id": "TA0003",
+    "tactic_name": "Persistence",
+    "description": "Adversary tries to maintain their foothold",
+    "common_techniques": {
+      "T1547": "Boot or Logon Autostart Execution",
+      "T1547.001": "Registry Run Keys / Startup Folder",
+      "T1053": "Scheduled Task/Job",
+      "T1053.005": "Scheduled Task",
+      "T1136": "Create Account",
+      "T1543": "Create or Modify System Process",
+      "T1505": "Server Software Component"
+    }
+  }
+}
